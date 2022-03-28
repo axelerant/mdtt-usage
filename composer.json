@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/Users/subhojit/axelerant/mdtt"
+        }
+    ],
+    "require": {
+        "axelerant/mdtt": "@dev"
+    }
+}

@@ -1,0 +1,18 @@
+id: validate_users
+description: Validates users
+group: migration_validation
+source:
+  type: query
+  data: "select * from users order by uid"
+  database: source_db
+destination:
+  type: query
+  data: "select * from users_field_data order by uid"
+  database: destination_db
+tests:
+  -
+    sourceField: name
+    destinationField: name
+  -
+    sourceField: mail
+    destinationField: mail
