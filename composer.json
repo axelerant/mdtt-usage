@@ -1,11 +1,12 @@
 {
     "repositories": [
         {
-            "type": "path",
-            "url": "/Users/subhojit/axelerant/mdtt"
+            "url": "https://github.com/axelerant/mdtt",
+            "type": "git"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "axelerant/mdtt": "@dev"
+        "axelerant/mdtt": "dev-main"
     }
 }
