@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c72864e51db5518c87d424d7b06776f",
+    "content-hash": "4ee5d02246e7d4cfae0f7144afd2226e",
     "packages": [
         {
             "name": "axelerant/mdtt",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/axelerant/mdtt",
-                "reference": "0ffe394e6a5d27fe7145c8b19a549ca4b96f9690"
+                "url": "https://github.com/axelerant/mdtt.git",
+                "reference": "e59df84bc0c372f6aa858020eeb95839590c4bec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/axelerant/mdtt/zipball/e59df84bc0c372f6aa858020eeb95839590c4bec",
+                "reference": "e59df84bc0c372f6aa858020eeb95839590c4bec",
+                "shasum": ""
             },
             "require": {
                 "ext-mysqli": "*",
@@ -44,20 +50,10 @@
                     "src"
                 ]
             },
-            "scripts": {
-                "php-cs": [
-                    "./vendor/bin/phpcs src --standard=PSR2"
-                ],
-                "php-cs-fixer": [
-                    "./vendor/bin/php-cs-fixer fix src"
-                ],
-                "phpstan": [
-                    "./vendor/bin/phpstan analyse src --level max"
-                ],
-                "test": [
-                    "composer php-cs && composer phpstan"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Subhojit Paul",
@@ -66,7 +62,11 @@
                 }
             ],
             "description": "Migrated data testing tool",
-            "time": "2022-03-31T07:48:27+00:00"
+            "support": {
+                "issues": "https://github.com/axelerant/mdtt/issues",
+                "source": "https://github.com/axelerant/mdtt/tree/main"
+            },
+            "time": "2022-04-01T06:09:25+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -2501,12 +2501,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "ca700c0d8c82b4129f1cb29b91ffc3fc7e31f62e"
+                "reference": "caa47f85578841273f42714339cd1959af06bdb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/ca700c0d8c82b4129f1cb29b91ffc3fc7e31f62e",
-                "reference": "ca700c0d8c82b4129f1cb29b91ffc3fc7e31f62e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/caa47f85578841273f42714339cd1959af06bdb0",
+                "reference": "caa47f85578841273f42714339cd1959af06bdb0",
                 "shasum": ""
             },
             "require": {
@@ -2589,7 +2589,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-18T16:07:01+00:00"
+            "time": "2022-03-31T17:19:32+00:00"
         },
         {
             "name": "symfony/dependency-injection",

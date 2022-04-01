@@ -1,10 +1,4 @@
 {
-    "repositories": [
-        {
-            "url": "https://github.com/axelerant/mdtt",
-            "type": "git"
-        }
-    ],
     "minimum-stability": "dev",
     "require": {
         "axelerant/mdtt": "dev-main"
