@@ -1,15 +1,6 @@
 {
-    "repositories": [
-        {
-            "url": "https://github.com/subhojit-axl/mdtt-1",
-            "type": "git"
-        }
-    ],
-    "minimum-stability": "dev",
+    "minimum-stability": "alpha",
     "require": {
-        "axelerant/mdtt": "dev-mdtt-10"
-    },
-    "require-dev": {
-        "spatie/ray": "dev-main"
+        "axelerant/mdtt": "^0.1.3@alpha"
     }
 }

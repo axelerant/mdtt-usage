@@ -3,16 +3,16 @@ description: Validate public apis
 group: migration_validation
 source:
   type: json
-  data: http://localhost:8000
-  selector: "/entries"
+  data: https://gorest.co.in/public/v2/users
+  selector: ""
 destination:
   type: json
-  data: http://localhost:8001
-  selector: "/entries"
+  data: http://localhost:8000
+  selector: ""
 tests:
   -
-    sourceField: Description
-    destinationField: Description
+    sourceField: name
+    destinationField: name
   -
-    sourceField: Category
-    destinationField: Category
+    sourceField: email
+    destinationField: email
