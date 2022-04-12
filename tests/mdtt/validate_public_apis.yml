@@ -12,6 +12,7 @@ destination:
 tests:
   -
     sourceField: name
+    transform: trim
     destinationField: name
   -
     sourceField: email
