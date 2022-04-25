@@ -16,5 +16,16 @@ return [
             'host' => "127.0.0.1",
             'port' => "59002",
         ],
+    ],
+    'http' => [
+        'source' => [
+            'username' => 'username',
+            'password' => 'password',
+        ],
+        'destination' => [
+            'username' => 'username',
+            'password' => 'password',
+            'protocol' => 'ntlm',
+        ]
     ]
 ];

@@ -4,10 +4,12 @@ group: migration_validation
 source:
   type: json
   data: https://gorest.co.in/public/v2/users
+  credential: source
   selector: ""
 destination:
   type: json
   data: http://localhost:8000
+  credential: destination
   selector: ""
 tests:
   -
